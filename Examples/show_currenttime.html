@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Time</title>
+</head>
+<body>
+
+    <h2>Click to see current time</h2>
+    <button onclick="showTime()">Show Time</button>
+    <h3 id="time"></h3>
+
+    <script>
+        function showTime() {
+            let now = new Date();
+            document.getElementById("time").innerHTML = now.toLocaleTimeString();
+        }
+    </script>
+
+</body>
+</html>

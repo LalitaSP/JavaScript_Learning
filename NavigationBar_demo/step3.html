@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#" class="active" onclick="setActive(this)">Home</a></li>
+            <li><a href="#" onclick="setActive(this)">About</a></li>
+            <li><a href="#" onclick="setActive(this)">Services</a></li>
+            <li><a href="#" onclick="setActive(this)">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>Click the Navbar Links</h2>
+        <p>JavaScript highlights the active menu item.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

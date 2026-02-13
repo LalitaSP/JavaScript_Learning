@@ -1,0 +1,7 @@
+function setActive(element) {
+    let links = document.querySelectorAll(".nav-links a");
+
+    links.forEach(link => link.classList.remove("active"));
+
+    element.classList.add("active");
+}
